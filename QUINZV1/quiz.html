@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="navegaçao">
+		<div id="area">
+			<h1 id="logo" ><span id="cor">Quiz</span>Latino</h1>
+		</div>
+	</div>
+
+
+	<div class="container" id="area1">
+		<div id="imgsa">
+			<img src="imgs/img2.jpg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">Qual é o nome do cantor da música vivo por ella
+	        			</th>
+	    			</tr>
+	    			<tr align="center">
+	    				<center>
+	        				<td><button onclick="respostaCerta1()" id="opcao1">Andrea Bocelli </button></td>
+		        			<td><button onclick="respostaErrada1()" id="opcao2"> Luis Fonsi</button></td> 
+		        			<td><button onclick="respostaErrada1()" id="opcao3"> J Balvin </button> </td>
+	        			</center>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+<br>
+<br>
+
+<div class="container" id="area2">
+		<div id="imgsa">
+			<img src="imgs/img3.jpg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">Qual país tem a maior taxa de alfabetização da América Latina</th>
+	    			</tr>
+	    			<tr align="center" id="opcoes">
+	        			<td><button onclick="respostaErrada2()" id="opcao4"> Venezuela </button></td>
+	        			<td><button onclick="respostaCerta2()" id="opcao5"> Uruguai</button></td> 
+	        			<td><button onclick="respostaErrada2()" id="opcao6"> Chile </button> </td>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+
+<br>
+<br>
+
+<div class="container" id="area3">
+		<div id="imgsa">
+			<img src="imgs/img4.jpeg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">A obra Guerica pertence a qual destes movimentos artísticos </th>
+	    			</tr>
+	    			<tr align="center" id="opcoes">
+	        			<td><button onclick="respostaErrada3()" id="opcao7"> Realismo </button></td>
+	        			<td><button onclick="respostaErrada3()" id="opcao8"> Romantismo</button></td> 
+	        			<td><button onclick="respostaCerta3()" id="opcao9"> Cubismo </button> </td>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+<br>
+<br>
+
+	<div class="container" id="resultado">
+		<div id="imgsa">
+			<img src="imgs/img4.jpeg" id="imgsa" onclick="exibeAcertos()">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<h1 align="center">Resultado</h1>
+
+				<h2 align="center">Você acertou</h2>
+
+				<h3 align="center" id="acertos"> X de 3</h3>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>
