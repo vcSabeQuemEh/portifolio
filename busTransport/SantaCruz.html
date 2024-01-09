@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>BusTranspor</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script type="text/javascript" src="script/script.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<div id="nv">
+        <a href="login.html" id="logoff"> Fazer Logoff </a>
+    <div id="area">
+        <div id="logo">
+            <a class="home" href="index.html"> <h1> Busólogos<span class="blue">Transport</span></h1></a>
+        </div>
+        <div id="link">
+            <a href="InterNorte.html" onmouseover="mudaCorVerde(this)" onmouseout="voltaCor(this)"> InterNorte </a>/
+            <a href="InterSul.html" onmouseover="mudaCorAmarelo(this)" onmouseout="voltaCor(this)"> InterSul  </a>/
+            <a href="SantaCruz.html" onmouseover="mudaCorVermelho(this)" onmouseout="voltaCor(this)"> SantaCruz  </a>/
+            <a href="Transcarioca.html" onmouseover="mudaCorAzul(this)" onmouseout="voltaCor(this)"> Transcarioca </a>
+        </div>
+</div>
+<br>
+<!-- conteúdo -->
+<div id="area_principal">
+    <div class="bordaVermelha">
+        <h2>Santa Cruz</h2>
+        <img src="img/img9.png" class="img_postagem" >
+        <p> Responsável pelo gerenciamento do transporte de passageiros na região da Zona Oeste, compreendida como área 5 na cidade do Rio de Janeiro, excluindo os bairros de Jacarepaguá, Barra da Tijuca e Recreio dos Bandeirantes que integram o Consórcio Transcarioca tendo atualmente um total de 6 empresas no consórcio.<br><br>
+        Tem como sua cor padrão o vermelho e o código de identificação D. Também faz a operação do Ligeirão (BRT) TransOeste. </p><br><br>
+    </div>
+    <div id="calculoNorte" class="bordaVermelha">
+            <select onchange="mudaLinhaVermelha()" id="seletor">
+                <option value="semnada"> escolha uma linha </option>
+                <option value="397">397 - Cpo Grande x  Candelária </option>
+                <option value="393">393 - Bangu x Candelária </option>
+            </select>
+            <table>
+                <tr>
+                    <td><h1 id="linha"> Linha - </h1>
+                    <img name="foto" src=""></td>
+
+                    <td><form name="horario">
+                        <h3>Hora de Saída: </h3>
+                        <br>
+                        <input type="text" name="horaSaida" id="horaSaida" maxlength="5" onkeypress=" return verificaNumeros()" onkeyup="colocaPonto()">
+                        <br><br>
+                        <h3>Horário de Chegada: </h3>
+                        <br>
+                        <input type="text" name="horaChegada" onfocus="calculaHoraVermelho()">
+                    </form>
+                </tr>
+            </table>
+    </div>
+</div>
+<!-- footer -->
+<div class="footer" >
+    <p>desenvolvido por: Lucas Silva Chaves</p>
+    <div>
+       <a href="InterNorte.html" onmouseover="mudaCorVerde(this)" onmouseout="voltaCor(this)"> InterNorte </a>/
+        <a href="InterSul.html" onmouseover="mudaCorAmarelo(this)" onmouseout="voltaCor(this)"> InterSul  </a>/
+        <a href="SantaCruz.html" onmouseover="mudaCorVermelho(this)" onmouseout="voltaCor(this)"> SantaCruz  </a>/
+        <a href="Transcarioca.html" onmouseover="mudaCorAzul(this)" onmouseout="voltaCor(this)"> Transcarioca </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="script/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Login</title>
+</head>
+<body>
+	<div id="nv" align="center">
+    <!-- header -->
+    <div id="areaLogin">
+        <div id="logoLogin">
+            <h1> Busólogos<span class="blue">Transport</span></h1>
+        </div> 
+    </div>
+</div>
+	<center>
+	
+				<br>
+				<br>
+				<br>
+				<br>
+				<h3>Nome de Usuário:</h3>
+				<br>
+				<br>
+				<form name="Login">
+				<input id="username" type="text" name="username" onblur="verificaLogin(this)">
+				<br>
+				<br>
+				<h3>Senha:</h3>
+				<br>
+				<br>
+				<input id="password" type="password" name="password" onblur="verificaSenha(this)">
+				<br>
+				<br>
+				<br>
+				<button onclick=" return autorizaLogin()" width="50" >Entrar</button> <input type="reset" name="limpar" value="limpar">
+				</form>
+				
+			
+		</div>
+	</center>
+
+</body>
+</html>

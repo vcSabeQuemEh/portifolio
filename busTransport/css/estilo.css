@@ -1,0 +1,153 @@
+ * {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #151733;
+    width: 100%;
+}
+h1{
+	font-family: comic sans ms, helvetica;
+	color: white;
+}
+h3{
+	font-family: comic sans ms, helvetica;
+	color: white;
+}
+a{
+	text-decoration:none;
+	padding: 5px 10px;
+	font-family: comic sans ms, helvetica;
+}
+a:link{
+	color:#4682b4;
+}
+a:visited{
+	color: #4682b4;
+}
+
+td{
+	padding: 10px;
+}
+/*ids*/
+#nv{
+    background: #000;
+    height: 50px; 
+    float: auto;
+    border-bottom: 2px solid #696969;
+}
+#area{
+	background: #000;
+	height: 50px;
+	float:auto;
+	width: 810px;
+	margin: auto;
+}
+#logo{
+	float: left;
+}
+#logoLogin{
+	float: center;
+}
+#link{
+    float: right;
+    padding: 10px;
+    color:white;
+}
+#logoff{
+	float: right;
+}
+.footer{
+	bottom: -1;
+	left: 0;
+	width: 100%;
+	background: #000;
+	height: 50px;
+	border-top:  2px solid #696969;
+	float: auto;
+	color: white;
+	text-align: center;	
+}  
+/*class*/
+.blue{
+    color: #4682b4;
+}
+.espaco{
+	margin:auto;
+}
+.home {
+	padding: 0;
+}
+.home:hover {
+	color: black;
+	background: white;
+	font-size: 16px;
+}
+/*formatação das postagens*/
+h2{
+	color:#4682b4; 
+}
+/*ids*/
+#area_principal{
+	width: 810px;
+	margin: 10px auto 10px auto;
+}
+#postagem{
+	background-color: #000;
+	color:white;
+	font-family: comic sans ms, helvetica;
+	border-left: 10px solid #00008b;
+	padding: 5px;
+}
+/*class*/
+.data{
+	font-size: 14px;
+	border-bottom: 1px solid gray;
+	display: block;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.img_postagem{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	max-width: 200px;
+	max-height: 150px;
+}
+.postado{
+	border-left: 5px solid gray;
+	margin-top: 10px;
+	display: block;
+	padding-left: 5px;
+}
+.download:hover{
+font-size: 16px;
+
+}
+.bordaVerde{
+	background-color: #000;
+	color:white;
+	font-family: comic sans ms, helvetica;
+	border-left: 10px solid green;
+	padding: 5px;
+}
+.bordaVermelha{
+	background-color: #000;
+	color:white;
+	font-family: comic sans ms, helvetica;
+	border-left: 10px solid red;
+	padding: 5px;
+}
+.bordaAmarela{
+	background-color: #000;
+	color:white;
+	font-family: comic sans ms, helvetica;
+	border-left: 10px solid yellow;
+	padding: 5px;
+}
+.bordaAzul{
+	background-color: #000;
+	color:white;
+	font-family: comic sans ms, helvetica;
+	border-left: 10px solid #00008b;
+	padding: 5px;
+}
