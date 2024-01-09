@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="navegaçao">
+		<div id="area">
+			<h1 id="logo" ><span id="cor">Quis</span>pañol</h1>
+		</div>
+	</div>
+
+
+	<div class="container" id="area1">
+		<div id="imgsa">
+			<img src="imgs/merengue.jpg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">Na Culinária Mexicana, existe um ingrediente muito utilizado, tão utilizado que existem mais de 140 tipos só no México.
+	        			</th>
+	    			</tr>
+	    			<tr align="center">
+	    				<center>
+	        				<td><button onclick="respostaErrada1()" id="opcao3">Canela</button></td>
+		        			<td><button onclick="respostaErrada1()" id="opcao2">Açafrão</button></td> 
+		        			<td><button onclick="respostaCerta1()" id="opcao1">Pimenta</button> </td>
+	        			</center>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+<br>
+<br>
+
+<div class="container" id="area2">
+		<div id="imgsa">
+			<img src="imgs/domquixote.jpg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">Na sua mais famosa passagem, Dom Quixote, que acreditava estar lutando contra gigantes na verdade lutava contra:</th>
+	    			</tr>
+	    			<tr align="center" id="opcoes">
+	        			<td><button onclick="respostaCerta2()" id="opcao5">Moinhos de Ventos</button></td>
+	        			<td><button onclick="respostaErrada2()" id="opcao6">Rochas</button></td>
+	        			<td><button onclick="respostaErrada2()" id="opcao4">Torres</button> </td>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+
+<br>
+<br>
+
+<div class="container" id="area3">
+		<div id="imgsa">
+			<img src="imgs/tilapia.jpg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">A pintora mexicana Frida Kahlo foi reconhecida pelas suas pinturas de __________.</th>
+	    			</tr>
+	    			<tr align="center" id="opcoes">
+	        			<td><button onclick="respostaErrada3()" id="opcao7">Prostitutas</button></td>
+	        			<td><button onclick="respostaErrada3()" id="opcao8">Paisagens Naturais</button></td> 
+	        			<td><button onclick="respostaCerta3()" id="opcao9">Auto-retratos</button> </td>
+	    			</tr>
+				</table>
+			</div>
+		</div>
+
+<br>
+<br>
+	</div>
+<br>
+<br>
+
+<div class="container" id="area4">
+		<div id="imgsa">
+			<img src="imgs/pablo.jpg" id="imgsa">	
+		</div>
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">A pessoa que era vista como "Robin Hood" por alguns colombianos no ano de 1990 era um:
+	        			</th>
+	    			</tr>
+	    			<tr align="center">
+	    				<center>
+	        				<td><button onclick="respostaCerta4()" id="opcao11">Narcotraficante</button></td>
+		        			<td><button onclick="respostaErrada4()" id="opcao10">Ladrão</button></td> 
+		        			<td><button onclick="respostaErrada4()" id="opcao12">Policial</button> </td>
+	        			</center>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+
+<br>
+<br>
+
+	<div class="container" id="area5">
+		<div id="imgsa">
+			<img src="imgs/img9.jpg" id="imgsa">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<table id="tabela">
+	    			<tr>
+	        			<th colspan="3">No Chile existe uma festa chamada Festas Pátrias. O que ela comemora?
+	        			</th>
+	    			</tr>
+	    			<tr align="center">
+	    				<center>
+	        				<td><button onclick="respostaCerta5()" id="opcao13">Independência Chilena</button></td>
+		        			<td><button onclick="respostaErrada5()" id="opcao14">Cultura Chilena</button></td> 
+		        			<td><button onclick="respostaErrada5()" id="opcao15">Páscoa Chilena</button> </td>
+	        			</center>
+	    			</tr>
+				</table>
+			</div>
+		</div>		
+	</div>
+<br>
+<br>
+
+	<div class="container" id="resultado">
+		<div id="imgsa">
+			<img src="imgs/botao2.png" id="imgsb" onclick="exibeAcertos()">	
+		</div>
+
+		<div id="container2">
+			<div id="perg">
+				<h1 align="center">Resultado</h1>
+
+				<h2 align="center">Você acertou</h2>
+
+				<h3 align="center" id="acertos">X de 5</h3>
+			</div>
+		</div>		
+	</div>
+	<br>
+	<br>
+	<hr color="#759EB8" size="5">
+<br>
+	<div id="gerarQuestao">
+		<center> <a href="quiz.html" target=""> <button value="gerarQuestoes"> Clique para gerar mais questões </button> </a> </center>
+</body>
+</html>
